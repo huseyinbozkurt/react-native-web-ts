@@ -1,4 +1,3 @@
-import React from 'react';
 import {Container} from '..';
 import renderer from 'react-test-renderer';
 import {Text} from 'react-native';

@@ -1,4 +1,3 @@
-import React from 'react';
 import {Home} from '..';
 import renderer from 'react-test-renderer';
 import {mockNavigation} from '../../../mocks/Setup';
