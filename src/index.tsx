@@ -1,9 +1,15 @@
 import {ReactElement} from 'react';
 import {AppRegistry, Platform} from 'react-native';
+import {Provider} from 'react-redux';
 import {Navigation} from './navigation';
+import store from './store';
 
 export function App(): ReactElement {
-  return <Navigation />;
+  return (
+    <Provider store={store}>
+      <Navigation />
+    </Provider>
+  );
 }
 
 AppRegistry.registerComponent('example', () => App);
